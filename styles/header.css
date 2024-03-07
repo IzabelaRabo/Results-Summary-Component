@@ -1,0 +1,80 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: Hanken Grotesk;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    text-align: center;
+    display: grid; 
+    place-content: center;
+    width: 320px;
+}
+.your-result{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    color: hsl(241, 100%, 89%);
+}
+.circle-container{
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 170px;
+    height: 170px;
+    border-radius: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    margin: 0;
+    color: white;
+    font-size: 65px;
+    line-height: 80px;
+    
+}
+.score-label{
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+}
+h2{
+    font-size: 30px;
+    color: white;
+}
+.result-comment{
+    font-weight: 400;
+    color: hsl(241, 100%, 89%);
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 0;
+}
+@media (max-width: 375px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: block;
+    }
+    header{
+        width: 100%;
+        padding-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    h2{
+        margin: 10px;
+    }
+    .result-comment{
+        margin-bottom: 20px;
+    }
+}

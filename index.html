@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Results Summary Component</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <p class="your-result">Your Result</p> <!--Row 1-->
+                <section class="circle-container"> <!--Row 2-->
+                    <h1>76</h1>
+                    <p class="score-label">of the 100</p>
+                </section>
+                <h2>Great</h2>  <!--Row 3-->
+                <p class="result-comment">You scored higher than 65% of the people who have taken these tests.</p>  <!--Row 4-->
+            </header>
+            <main>
+                <h3>Summary</h3> <!--Row 5-->
+                <section class="reaction-container"><!--Row 6-->
+                    <img src="icons/icon-reaction.svg" alt="Reaction Icon">
+                    <h3 class="reaction-type">Reaction</h3>
+                    <p class="reaction-rating">80 <span>/ 100</span></p>
+                </section>
+                <section class="memory-container"> <!--Row 7-->
+                    <img src="icons/icon-memory.svg" alt="Memory Icon">
+                    <h4 class="memory-type">Memory</h4>
+                    <p class="memory-rating">92 <span>/ 100</span></p>
+                </section>
+                <section class="verbal-container"> <!--Row 8-->
+                    <img src="icons/icon-verbal.svg" alt="Verbal Icon">
+                    <h5 class="verbal-type">Verbal</h5>
+                    <p class="verbal-rating">61 <span>/ 100</span></p>
+                </section>
+                <section class="visual-container"> <!--Row 9-->
+                    <img src="icons/icon-visual.svg" alt="Visual Icon">
+                    <h6 class="visual-type">Visual</h6>
+                    <p class="visual-rating">72 <span>/ 100</span></p>
+                </section>
+                <button>Continue</button>
+            </main>
+        </div>
+    </body>
+</html>
